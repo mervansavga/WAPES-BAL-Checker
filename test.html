@@ -1,0 +1,18 @@
+<form action="/upload" method="post" enctype="multipart/form-data">
+    <p>Select a screenshot:      <input type="file" name="page1" /></p> 
+    <p>Select a second screenshot: <input type="file" name="page2" /></p> 
+    <p>Enter your position:   
+        <select name="position" id="position">
+            <option value="GK">GK</option>
+            <option value="CB">CB</option>
+            <option value="LRB">L/RB</option>
+            <option value="DMF">DMF</option>
+            <option value="CMF">CMF</option>
+            <option value="AMF">AMF</option>
+            <option value="LRMF">L/RMF</option>
+            <option value="LRWF">L/RWF</option>
+            <option value="SS">SS</option>
+            <option value="CF">CF</option>
+        </select></p> 
+    <p><input type="submit" onclick="this.value = 'Uploading... Please Wait'" value="Start upload" /></p>
+</form>
